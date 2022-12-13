@@ -1,18 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import '@/styles/App.scss'
 import '@/styles/fonts.scss'
-
+import RouterBreadcrumbs from '@/components/RouterBreadcrumbs'
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className="App">
-       Обувь
-
-
-    </div>
-  )
+	return (
+		<div className='App'>
+			<RouterBreadcrumbs />
+		</div>
+	)
 }
 
 export default App
