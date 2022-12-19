@@ -38,7 +38,7 @@
             -moz-appearance: none;
             appearance: none;
             border-radius: 50%;
-            width: 15.5px;
+            width: 16px;
             height: 16px;
             margin-top: 5px;
             transform: translate(1.5px, 0);
@@ -59,9 +59,10 @@
                     height: 2px;
                 }
                 position: absolute;
-                width: 9.5px;
+                width: 9px;
                 height: 9px;
                 border-radius: 50%;
+
                 background-color: var(--ozAccentPrimaryLight);
                 border: 2px solid white;
 
@@ -74,7 +75,7 @@
             &:checked + .circle {
                 position: absolute;
                 border-radius: 50%;
-                width: 8.5px;
+                width: 8px;
                 height: 8px;
                 transform: translate(-18.5px, 10px);
                 background-color: var(--ozWhite);
