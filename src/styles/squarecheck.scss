@@ -1,0 +1,67 @@
+.squarecheck {
+    color: var(--ozTextPrimary);
+    font-size: var(--bodyLFont);
+    line-height: var(--bodyLLine);
+    margin-bottom: 42px;
+    transform: translate(0, 86px);
+    .squarecheck_header {
+        font-weight: var(--fontBold);
+    }
+    .squarecheck_button {
+        transform: translate(-2px, 8px);
+
+        label {
+            line-height: 19px;
+            font-size: var(--bodyLFont);
+            line-height: var(--bodyLLine);
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        input {
+            z-index: 100;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 25%;
+            width: 16px;
+            height: 16px;
+            margin-top: 4px;
+            transform: translate(-1.5px, 1px);
+            border: 2px solid var(--ozBGQuaternary);
+            transition: 0.05s all linear;
+            margin-right: 6px;
+            cursor: pointer;
+            position: relative;
+            top: 3px;
+            border: 2px solid var(--ozBGQuaternary);
+
+            &:hover {
+                border: 2px solid var(--ozAccentPrimaryLight);
+                background-size: 115% 115%;
+                background-image: url("@/assets/checkmark.png");
+                background-position: bottom -2px right -1px;
+                background-repeat: no-repeat;
+                transition: background-color 0.15s, border-color 0.15s;
+            }
+        }
+
+        input:checked {
+            background-size: 120% 120%;
+            background-image: url("@/assets/checkmark_active.png");
+            background-position: bottom -2px right -1px;
+            background-repeat: no-repeat;
+            transition: background-color 0.15s, border-color 0.15s;
+            border: 2px solid var(--ozAccentPrimary);
+            background-color: var(--ozAccentPrimary);
+        }
+    }
+    .squarecheck_checkall {
+        transform: translate(2px, 8px);
+        color: var(--ozAccentPrimary);
+        cursor: pointer;
+        font-size: var(--bodyLFont);
+        line-height: var(--bodyLLine);
+    }
+}

@@ -3,15 +3,11 @@
   display: flex;
   flex-basis: auto;
   flex-direction: column;
-  flex-grow: 1;
-  flex-shrink: 0;
   margin: var(--gap) auto 0;
   max-width: var(--desktop-screen-default);
   padding: 0 var(--desktop-padding-default);
   width: 100%;
   font-family: var(--mainFont);
-  color: var(--ozCtrlPrimary);
-  font-weight: var(--fontNormal);
-  line-height: 18px;
-  font-size: 14px;
+  transform: translate(0px, 148px);
+  min-width: 1470px;
 }

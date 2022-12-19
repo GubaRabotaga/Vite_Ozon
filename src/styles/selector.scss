@@ -1,0 +1,24 @@
+.selector {
+    cursor: pointer;
+    position: absolute;
+    transform: translate(224px, -1174px);
+    font-size: var(--bodyMFont);
+    line-height: var(--bodyMLine);
+    width: 226px;
+    height: 28px;
+    background-color: var(--ozBGSecondary);
+    border: 2px solid var(--ozBGQuaternary);
+    border-radius: 6px;
+    transition: border-color 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+    &:hover {
+        border: 2px solid var(--ozAccentPrimary);
+    }
+    .selector_text {
+        position: absolute;
+        transform: translate(10.5px, 5px);
+    }
+    .selector_arrow {
+        transform: translate(201px, 6px) scale(0.8, 0.5);
+        position: absolute;
+    }
+}

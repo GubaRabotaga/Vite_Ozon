@@ -1,0 +1,43 @@
+.FilterParametrs {
+    display: block;
+    transform: translate(0, 66px);
+    .categories {
+        font-size: var(--bodyLFont);
+        font-weight: var(--fontBold);
+    }
+
+    .rightsving {
+        padding-bottom: 6px;
+        flex: 0 0 auto;
+        transform: rotate(-180deg) translate(0, -2px);
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .categories_set {
+        &:hover {
+            color: blue;
+            cursor: pointer;
+        }
+    }
+    .categories_type {
+        background-color: var(--ozAccentPrimaryPale);
+        border-radius: 3px;
+        padding: 4px 8px;
+        max-width: 190px;
+        transform: translate(0, 8px);
+        &:hover {
+            color: blue;
+            cursor: pointer;
+        }
+    }
+    .categories_type_subtype {
+        display: flex;
+        padding: 4px 0;
+        transform: translate(16px, 12px);
+        &:hover {
+            color: blue;
+            cursor: pointer;
+        }
+    }
+}

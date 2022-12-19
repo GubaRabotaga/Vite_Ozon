@@ -1,0 +1,136 @@
+.product {
+    cursor: pointer;
+    list-style-type: none;
+    transform: translate(224px, -1143px);
+    font-family: var(--mainFont);
+
+    .product_image {
+        display: inline-flex;
+        float: left;
+        margin: 17px;
+        margin-bottom: 100px;
+        height: 450px;
+        width: 344px;
+        border: 10px solid #f6f9f7;
+        border-radius: 2%;
+    }
+    .product_title {
+        transform: translate(-431px, 497px);
+        margin: 50px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 200px;
+        position: absolute;
+        &:hover {
+            color: var(--ozBlue);
+        }
+    }
+    .product_line {
+        border: none;
+        border-top: 1px solid var(--ozGray90);
+        transform: translate(0, 17px);
+        width: 99.9%;
+    }
+    .product_box {
+        transform: translate(-381px, 17px);
+        position: absolute;
+        color: var(--ozWhite);
+        background: linear-gradient(90deg, rgb(249, 17, 85) 3%, rgb(255, 173, 173) 97%);
+        border-radius: 6px;
+        width: 71px;
+        height: 24px;
+        text-align: center;
+        .product_box_finalsaletext {
+            font-size: 14px;
+            vertical-align: middle;
+            font-weight: 500;
+            transform: translate(0px, -16px);
+        }
+        .product_box_discount {
+            transform: translate(0px, 393px);
+            border-radius: 6px;
+            color: var(--ozWhite);
+            width: 50px;
+            height: 24px;
+            font-size: 14px;
+
+            background: linear-gradient(90deg, rgb(249, 17, 85) 3%, rgb(249, 17, 85) 97%);
+
+            .product_box_discount_text {
+                font-weight: 500;
+                transform: translate(0px, 3px);
+            }
+        }
+        .product_box_heart {
+            transform: translate(331px, -456px);
+        }
+
+        .product_box_threedots {
+            transform: translate(307px, -416px);
+        }
+        .product_box_cardprice {
+            transform: translate(0px, 382px);
+            border-radius: 6px;
+            font-size: var(--headMFont);
+            font-weight: var(--fontBold);
+            line-height: var(--headMLine);
+            margin: 0 2px 2px 0;
+            padding: 0 6px;
+            white-space: nowrap;
+            max-width: 50px;
+            color: var(--ozTextPrimaryNegative);
+            background: linear-gradient(90deg, rgb(249, 17, 85) 3%, rgb(249, 17, 85) 97%);
+        }
+        .product_box_cardprice_text {
+            color: #f91155;
+            font-weight: 400;
+            line-height: var(--bodyMLine);
+            font-size: var(--bodyMFont);
+            position: absolute;
+            transform: translate(22px, 7px);
+        }
+        .product_box_price {
+            color: var(--ozTextSecondary);
+            transform: translate(-20px, 384px);
+            font-weight: var(--fontMedium);
+            font-size: var(--bodyLFont);
+        }
+        .product_box_pricewithdiscount {
+            color: var(--ozTextSecondary);
+            position: absolute;
+            transform: translate(2px, 368px);
+            font-weight: 500;
+            font-size: var(--captionFont);
+            line-height: var(--captionLine);
+            text-decoration: line-through;
+        }
+    }
+}
+.product_box_star {
+    transform: translate(-380px, 567px);
+    position: absolute;
+    color: var(--ozRating);
+}
+.product_box_star_text {
+    transform: translate(-360px, 567px);
+    position: absolute;
+    color: var(--ozTextSecondary);
+    font-size: var(--bodyMFont);
+    letter-spacing: var(--letter02);
+    line-height: var(--bodyMLine);
+    font-weight: var(--fontBold);
+}
+.product_box_comment {
+    transform: translate(-335px, 567px);
+    color: var(--ozTextSecondary);
+}
+.product_box_comment_text {
+    position: absolute;
+    transform: translate(-330px, 567px);
+    color: var(--ozTextSecondary);
+    font-size: var(--bodyMFont);
+    letter-spacing: var(--letter02);
+    line-height: var(--bodyMLine);
+    font-weight: var(--fontBold);
+}

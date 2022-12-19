@@ -1,11 +1,17 @@
+import RouterBreadcrumbs from './components/RouterBreadcrumbs'
+import Filter from './components/Filter/Filter'
+import UseProducts from './hooks/useProducts'
+import '@/styles/products.scss'
 import '@/styles/App.scss'
 import '@/styles/fonts.scss'
-import RouterBreadcrumbs from '@/components/RouterBreadcrumbs'
+
 function App() {
 	return (
-		<div className='App'>
+		<span className='App'>
 			<RouterBreadcrumbs />
-		</div>
+			<Filter />
+			<UseProducts />
+		</span>
 	)
 }
 

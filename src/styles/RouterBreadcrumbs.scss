@@ -1,0 +1,37 @@
+.RouterBreadcrumbs {
+    font-family: var(--mainFont);
+    font-size: 14px;
+    color: var(--ozAccentPrimary);
+    display: inline-block;
+    text-align: -webkit-match-parent;
+    height: 28px;
+    white-space: nowrap;
+    .leftsving {
+        color: var(--ozTextQuaternary);
+        display: inline-block;
+        height: 30px;
+        margin: 0 4px 0 8px;
+        vertical-align: top;
+        width: 16px;
+    }
+
+    .currentcategory {
+        font-size: var(--headXLFont);
+        font-weight: var(--fontBold);
+        line-height: var(--headXLLine);
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: var(--ozBlack);
+        margin: 0px;
+        display: inline-block;
+        transform: translate(0, -2px);
+    }
+    .productselected {
+        color: var(--ozTextQuaternary);
+        font-size: var(--bodyMFont);
+        margin-left: 4px;
+        display: inline-block;
+        transform: translate(0, -17px);
+    }
+}
