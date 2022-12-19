@@ -13,6 +13,7 @@ function DeliveryTime() {
 							id='1'
 							name='delivery'
 							value='nomatter'
+							className='deliverytime_button_first'
 							defaultChecked
 						/>
 						<span className='circle'></span>

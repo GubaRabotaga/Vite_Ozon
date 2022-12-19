@@ -1,6 +1,5 @@
 .deliverytime {
     color: var(--ozTextPrimary);
-    font-size: var(--bodyLFont);
     line-height: var(--bodyLLine);
     margin-bottom: 42px;
     transform: translate(0, 128px);
@@ -39,22 +38,26 @@
             -moz-appearance: none;
             appearance: none;
             border-radius: 50%;
-            width: 16px;
+            width: 15.5px;
             height: 16px;
             margin-top: 5px;
             transform: translate(1.5px, 0);
             border: 2px solid var(--ozSeparator);
             transition: 0.05s all linear;
-            outline: none;
+
             margin-right: 6px;
             cursor: pointer;
             position: relative;
-            top: 3px;
+            top: 3.1px;
             &:hover {
                 border: 2px solid var(--ozAccentPrimaryLight);
             }
 
             &:hover + .circle {
+                .deliverytime_button_first {
+                    width: 1px;
+                    height: 2px;
+                }
                 position: absolute;
                 width: 9px;
                 height: 9px;
