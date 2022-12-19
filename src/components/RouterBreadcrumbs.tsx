@@ -1,4 +1,4 @@
-import '@/styles/RouterBreadcrumbs.scss'
+import '@/styles/routerbreadcrumbs.scss'
 function RouterBreadcrumbs() {
 	return (
 		<div className='RouterBreadcrumbs'>

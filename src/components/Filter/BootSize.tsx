@@ -3,7 +3,9 @@ import '@/styles/squarecheck.scss'
 function BootSize() {
 	return (
 		<div className='squarecheck'>
-			<div className='squarecheck_header'>Российский размер (обуви) </div>
+			<div className='squarecheck_header_bootsize'>
+				Российский размер (обуви){' '}
+			</div>
 
 			<div className='squarecheck_button'>
 				<div>

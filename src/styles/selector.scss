@@ -1,7 +1,7 @@
 .selector {
     cursor: pointer;
     position: absolute;
-    transform: translate(224px, -1174px);
+    transform: translate(224px, -1134px);
     font-size: var(--bodyMFont);
     line-height: var(--bodyMLine);
     width: 226px;
@@ -15,10 +15,32 @@
     }
     .selector_text {
         position: absolute;
-        transform: translate(10.5px, 5px);
+        transform: translate(10px, 5px);
     }
     .selector_arrow {
         transform: translate(201px, 6px) scale(0.8, 0.5);
         position: absolute;
+        @media (max-width: 580px) {
+            transform: translate(105px, 6px) scale(0.8, 0.5);
+        }
+    }
+    @media (max-width: 580px) {
+        transform: translate(85%, 70px);
+        border: 0;
+        font-size: var(--bodyLFont);
+
+        line-height: var(--bodyLLine);
+    }
+    .selector_cubes {
+        transform: translate(-770%, 0px);
+        @media (min-width: 580px) {
+            display: none;
+        }
+    }
+    .selector_option {
+        transform: translate(1000%, 0);
+        @media (min-width: 580px) {
+            display: none;
+        }
     }
 }

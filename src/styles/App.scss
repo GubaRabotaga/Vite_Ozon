@@ -9,5 +9,13 @@
   width: 100%;
   font-family: var(--mainFont);
   transform: translate(0px, 148px);
-  min-width: 1470px;
+
+  @media (min-width: 580px) {
+    min-width: 1470px;
+  }
+  @media (max-width: 580px) {
+    min-width: 505px;
+    margin: 0;
+    padding: 0;
+  }
 }

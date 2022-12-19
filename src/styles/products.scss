@@ -1,8 +1,11 @@
 .product {
     cursor: pointer;
     list-style-type: none;
-    transform: translate(224px, -1143px);
+    transform: translate(224px, -1103px);
     font-family: var(--mainFont);
+    @media (max-width: 580px) {
+        transform: translate(224px, 70px);
+    }
 
     .product_image {
         display: inline-flex;
@@ -13,6 +16,13 @@
         width: 344px;
         border: 10px solid #f6f9f7;
         border-radius: 2%;
+        @media (max-width: 580px) {
+            height: 254.5px;
+            width: 208px;
+            transform: translate(-215px, 0);
+            margin: 150px 0 0 0;
+            padding: 0;
+        }
     }
     .product_title {
         transform: translate(-431px, 497px);
@@ -25,12 +35,20 @@
         &:hover {
             color: var(--ozBlue);
         }
+        @media (max-width: 580px) {
+            transform: translate(-492px, 435px);
+        }
     }
     .product_line {
         border: none;
         border-top: 1px solid var(--ozGray90);
         transform: translate(0, 17px);
         width: 99.9%;
+        @media (max-width: 580px) {
+            width: 49%;
+            transform: translate(-225px, 135px);
+            position: absolute;
+        }
     }
     .product_box {
         transform: translate(-381px, 17px);
@@ -41,6 +59,9 @@
         width: 71px;
         height: 24px;
         text-align: center;
+        @media (max-width: 580px) {
+            transform: translate(-445px, 150px);
+        }
         .product_box_finalsaletext {
             font-size: 14px;
             vertical-align: middle;
@@ -54,20 +75,28 @@
             width: 50px;
             height: 24px;
             font-size: 14px;
-
             background: linear-gradient(90deg, rgb(249, 17, 85) 3%, rgb(249, 17, 85) 97%);
 
             .product_box_discount_text {
                 font-weight: 500;
                 transform: translate(0px, 3px);
             }
+            @media (max-width: 580px) {
+                transform: translate(0px, 195px);
+            }
         }
         .product_box_heart {
             transform: translate(331px, -456px);
+            @media (max-width: 580px) {
+                transform: translate(195px, -260px);
+            }
         }
 
         .product_box_threedots {
             transform: translate(307px, -416px);
+            @media (max-width: 580px) {
+                transform: translate(172px, -220px);
+            }
         }
         .product_box_cardprice {
             transform: translate(0px, 382px);
@@ -81,6 +110,9 @@
             max-width: 50px;
             color: var(--ozTextPrimaryNegative);
             background: linear-gradient(90deg, rgb(249, 17, 85) 3%, rgb(249, 17, 85) 97%);
+            @media (max-width: 580px) {
+                transform: translate(0px, 185px);
+            }
         }
         .product_box_cardprice_text {
             color: #f91155;
@@ -95,6 +127,9 @@
             transform: translate(-20px, 384px);
             font-weight: var(--fontMedium);
             font-size: var(--bodyLFont);
+            @media (max-width: 580px) {
+                transform: translate(-16px, 186px);
+            }
         }
         .product_box_pricewithdiscount {
             color: var(--ozTextSecondary);
@@ -104,6 +139,9 @@
             font-size: var(--captionFont);
             line-height: var(--captionLine);
             text-decoration: line-through;
+            @media (max-width: 580px) {
+                transform: translate(7px, 169px);
+            }
         }
     }
 }
@@ -111,6 +149,9 @@
     transform: translate(-380px, 567px);
     position: absolute;
     color: var(--ozRating);
+    @media (max-width: 580px) {
+        transform: translate(-440px, 505px);
+    }
 }
 .product_box_star_text {
     transform: translate(-360px, 567px);
@@ -120,17 +161,25 @@
     letter-spacing: var(--letter02);
     line-height: var(--bodyMLine);
     font-weight: var(--fontBold);
+    @media (max-width: 580px) {
+        transform: translate(-420px, 505px);
+    }
 }
 .product_box_comment {
     transform: translate(-335px, 567px);
     color: var(--ozTextSecondary);
+    @media (max-width: 580px) {
+        transform: translate(-400px, 505px);
+    }
 }
 .product_box_comment_text {
     position: absolute;
-    transform: translate(-330px, 567px);
+    transform: translate(-400px, 505px);
     color: var(--ozTextSecondary);
     font-size: var(--bodyMFont);
     letter-spacing: var(--letter02);
     line-height: var(--bodyMLine);
     font-weight: var(--fontBold);
+    @media (max-width: 580px) {
+    }
 }

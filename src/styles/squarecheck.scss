@@ -3,10 +3,75 @@
     font-size: var(--bodyLFont);
     line-height: var(--bodyLLine);
     margin-bottom: 42px;
-    transform: translate(0, 86px);
-    .squarecheck_header {
+    transform: translate(0, 126px);
+
+    .squarecheck_header_bootsize {
         font-weight: var(--fontBold);
+        @media (max-width: 580px) {
+            font-size: var(--bodyMFont);
+            font-weight: 400;
+            color: var(--ozTextPrimary);
+            background-color: var(--ozBGPrimary);
+            border: 7px solid var(--ozBGPrimary);
+            border-radius: 15px;
+            padding-left: 5px;
+            width: 325px;
+            display: inline;
+            position: absolute;
+            transform: translate(330px, -12px);
+            margin-left: 20px;
+            width: 200px;
+        }
     }
+    .squarecheck_header_brand {
+        font-weight: var(--fontBold);
+        @media (max-width: 580px) {
+            font-size: var(--bodyMFont);
+            font-weight: 400;
+            color: var(--ozTextPrimary);
+            background-color: var(--ozBGPrimary);
+            border: 7px solid var(--ozBGPrimary);
+            border-radius: 15px;
+            text-align: center;
+            display: inline;
+            transform: translate(-5px, 25px);
+            width: 70px;
+            position: absolute;
+        }
+    }
+    .squarecheck_header_season {
+        font-weight: var(--fontBold);
+        @media (max-width: 580px) {
+            font-size: var(--bodyMFont);
+            font-weight: 400;
+            color: var(--ozTextPrimary);
+            background-color: var(--ozBGPrimary);
+            border: 7px solid var(--ozBGPrimary);
+            border-radius: 15px;
+            text-align: center;
+            display: inline;
+            transform: translate(90px, 25px);
+            width: 70px;
+            position: absolute;
+        }
+    }
+    .squarecheck_header_type {
+        font-weight: var(--fontBold);
+        @media (max-width: 580px) {
+            font-size: var(--bodyMFont);
+            font-weight: 400;
+            color: var(--ozTextPrimary);
+            background-color: var(--ozBGPrimary);
+            border: 7px solid var(--ozBGPrimary);
+            border-radius: 15px;
+            text-align: center;
+            display: inline;
+            transform: translate(185px, 25px);
+            width: 50px;
+            position: absolute;
+        }
+    }
+
     .squarecheck_button {
         transform: translate(-2px, 8px);
 
@@ -55,6 +120,9 @@
             transition: background-color 0.15s, border-color 0.15s;
             border: 2px solid var(--ozAccentPrimary);
             background-color: var(--ozAccentPrimary);
+        }
+        @media (max-width: 580px) {
+            display: none;
         }
     }
     .squarecheck_checkall {

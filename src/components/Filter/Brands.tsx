@@ -3,7 +3,7 @@ import '@/styles/squarecheck.scss'
 function Brands() {
 	return (
 		<div className='squarecheck'>
-			<div className='squarecheck_header'>Бренды</div>
+			<div className='squarecheck_header_brand'>Бренды</div>
 
 			<div className='squarecheck_button'>
 				<div>

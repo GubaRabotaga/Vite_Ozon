@@ -3,7 +3,7 @@ import '@/styles/squarecheck.scss'
 function Type() {
 	return (
 		<div className='squarecheck'>
-			<div className='squarecheck_header'>Тип</div>
+			<div className='squarecheck_header_type'>Тип</div>
 
 			<div className='squarecheck_button'>
 				<div>

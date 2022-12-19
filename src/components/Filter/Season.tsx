@@ -3,7 +3,7 @@ import '@/styles/squarecheck.scss'
 function Season() {
 	return (
 		<div className='squarecheck'>
-			<div className='squarecheck_header'>Сезонность</div>
+			<div className='squarecheck_header_season'>Сезонность</div>
 
 			<div className='squarecheck_button'>
 				<div>

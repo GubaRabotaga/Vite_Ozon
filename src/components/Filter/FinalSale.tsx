@@ -1,4 +1,4 @@
-import '@/styles/Finalsale.scss'
+import '@/styles/finalsale.scss'
 function FinalSale() {
 	return (
 		<div>

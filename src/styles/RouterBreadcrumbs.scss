@@ -20,8 +20,7 @@
         font-weight: var(--fontBold);
         line-height: var(--headXLLine);
         max-width: 100%;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        white-space: nowrap;
         color: var(--ozBlack);
         margin: 0px;
         display: inline-block;
@@ -32,6 +31,12 @@
         font-size: var(--bodyMFont);
         margin-left: 4px;
         display: inline-block;
-        transform: translate(0, -17px);
+        transform: translate(0, -10px);
+        @media (max-width: 580px) {
+            position: absolute;
+            transform: translate(-360px, 39px);
+            white-space: nowrap;
+            color: #000;
+        }
     }
 }

@@ -1,14 +1,17 @@
 .finalsale {
-    display: inline-block;
     font-size: var(--bodyLFont);
     font-weight: var(--fontBold);
     line-height: var(--bodyLLine);
     word-wrap: break-word;
     max-width: 100px;
     transform: translate(0, 102px);
+    position: absolute;
+    @media (max-width: 580px) {
+        display: none;
+    }
 }
 .finalsale_button {
-    transform: translate(170px, 45px);
+    transform: translate(169px, 84px);
 
     input[type="checkbox"] {
         height: 0;
@@ -19,7 +22,7 @@
     label {
         cursor: pointer;
         text-indent: -9999px;
-        width: 37px;
+        width: 36px;
         height: 20px;
         background-color: var(--ozBGQuaternary);
         display: block;
@@ -35,7 +38,7 @@
         position: absolute;
         top: 2px;
         left: 2px;
-        width: 17px;
+        width: 16px;
         height: 16px;
         background: #fff;
         border-radius: 90px;
@@ -57,5 +60,8 @@
 
     label:active:after {
         width: 10px;
+    }
+    @media (max-width: 580px) {
+        display: none;
     }
 }
