@@ -59,7 +59,7 @@
                     height: 2px;
                 }
                 position: absolute;
-                width: 9px;
+                width: 9.5px;
                 height: 9px;
                 border-radius: 50%;
                 background-color: var(--ozAccentPrimaryLight);
@@ -74,7 +74,7 @@
             &:checked + .circle {
                 position: absolute;
                 border-radius: 50%;
-                width: 8px;
+                width: 8.5px;
                 height: 8px;
                 transform: translate(-18.5px, 10px);
                 background-color: var(--ozWhite);
