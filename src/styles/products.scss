@@ -174,12 +174,13 @@
 }
 .product_box_comment_text {
     position: absolute;
-    transform: translate(-400px, 505px);
+    transform: translate(-335px, 567px);
     color: var(--ozTextSecondary);
     font-size: var(--bodyMFont);
     letter-spacing: var(--letter02);
     line-height: var(--bodyMLine);
     font-weight: var(--fontBold);
     @media (max-width: 580px) {
+        transform: translate(-400px, 505px);
     }
 }
