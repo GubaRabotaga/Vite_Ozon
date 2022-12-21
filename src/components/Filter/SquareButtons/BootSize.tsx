@@ -1,4 +1,4 @@
-import '@/styles/squarecheck.scss'
+import './squarecheck.scss'
 
 function BootSize() {
 	return (
